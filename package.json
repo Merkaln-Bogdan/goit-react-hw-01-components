@@ -2,7 +2,14 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://merkaln-bogdan.github.io/goit-js-hw-13-image-finder",
+  "homepage": "https://merkaln-bogdan.github.io/goit-react-hw-01-components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merkaln-Bogdan/goit-react-hw-01-components.git"
+  },
+  "keywords": [],
+  "author": "Bogdan Merkaln <piccasoul19@ukr.net>",
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
