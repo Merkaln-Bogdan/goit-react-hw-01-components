@@ -1,0 +1,38 @@
+.statistic {
+  position: relative;
+  display: flex;
+  width: 450px;
+  height: 130px;
+  margin-bottom: 30px;
+}
+.title {
+  color: #475965;
+  margin: 0 auto;
+  height: 30px;
+}
+.statlist {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  bottom: 0;
+  position: absolute;
+}
+.item {
+  width: 80px;
+  height: 80px;
+  list-style: none;
+  background-color: red;
+  display: grid;
+  justify-content: center;
+}
+.label {
+  padding-top: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.percentage {
+  padding-top: 5px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
