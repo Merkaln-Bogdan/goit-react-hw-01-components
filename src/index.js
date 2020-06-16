@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import TransactionHistory from "./Transaction/Transaction";
 import transactions from "./Transaction/transactions.json";
-import Profile from "./user/user";
+import Profile from "./user/Profile";
 import user from "./user/user.json";
 import FriendList from "./Friendlist/Friendlist";
 import friends from "./Friendlist/friends.json";
