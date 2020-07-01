@@ -22,7 +22,7 @@
   width: 80px;
   height: 80px;
   list-style: none;
-  background-color: red;
+  background-color: rgb(93, 188, 226);
   display: grid;
   justify-content: center;
 }

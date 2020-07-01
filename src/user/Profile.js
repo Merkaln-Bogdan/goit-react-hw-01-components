@@ -1,6 +1,4 @@
 import React from "react";
-
-// import user from "./user.json";
 import style from "./Profile.module.css";
 import PropTypes from "prop-types";
 function Profile(user) {
