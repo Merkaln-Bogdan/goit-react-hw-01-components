@@ -1,9 +1,10 @@
 import React from "react";
 import style from "./statistics.module.css";
 import PropTypes from "prop-types";
-function Statistics({ stats }) {
+function Statistics({ title, stats }) {
   return (
     <section className={style.statistic}>
+      {title ? <h2 className={style.title}>{title}</h2> : null}
       <ul className={style.statlist}>
         {stats.map((stat) => (
           <li key={stat.id} className={style.item}>
